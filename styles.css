@@ -1,0 +1,70 @@
+/* styles.css */
+
+.body {
+    display: flex;
+    flex-direction: column;
+      
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    
+  }
+
+.header {
+    background-color: rgb(175, 115, 142);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-head {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.content-1 {
+    background-color: rgb(168, 87, 123);
+    display: flex;
+}
+
+.content-1-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2 {
+    background-color: rgb(130, 53, 88);
+    display: flex;
+}
+
+.content-3 {
+    background-color: rgb(108, 26, 63);
+    display: flex;
+}
+
+.content-4 {
+    background-color: rgb(112, 22, 62);
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(60, 7, 31);
+    display: flex;
+}
+
